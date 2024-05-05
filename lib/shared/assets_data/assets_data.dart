@@ -8,11 +8,7 @@ class AssetsData{
   static const eth = 'assets/images/ETH.png';
   static const graph = 'assets/images/Graph ETH.png';
   static const graph3 = 'assets/images/Graph1.png';
-
-
-
-
-
-
-
+  static const nums1 = 'assets/images/nums1.png';
+  static const nums2 = 'assets/images/nums2.png';
+  static const nums3 = 'assets/images/nums3.png';
 }

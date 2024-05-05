@@ -74,23 +74,6 @@ class HomeView extends StatelessWidget {
             ],
           ),
         ),
-        bottomNavigationBar: BottomNavigationBar(
-          backgroundColor: Colors.black87,
-          items: [
-            BottomNavigationBarItem(
-              icon: Icon(Icons.category_outlined),
-              label: 'Categories', // Provide a label for the item
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.analytics_outlined),
-              label: 'Analytics', // Provide a label for the item
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.person),
-              label: 'Profile', // Provide a label for the item
-            ),
-          ],
-        ),
       ),
     );
   }

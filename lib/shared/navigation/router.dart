@@ -1,6 +1,7 @@
 
 import 'package:go_router/go_router.dart';
 
+import '../../layout/app_layout.dart';
 import '../../modules/detailes_screen/detailes_screen.dart';
 import '../../modules/home_screen/home_screen.dart';
 import '../../modules/onboarding_screen/on_boarding.dart';
@@ -20,7 +21,7 @@ abstract class AppRouter{
 
         GoRoute(
             path: kHomeView,
-            builder:(context,state) => const HomeView()
+            builder:(context,state) => const HomeLayout()
         ),
 
         GoRoute(
