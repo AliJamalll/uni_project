@@ -140,7 +140,7 @@ class BrofileScreen extends StatelessWidget {
                   child: OutlinedButton(
                     onPressed: (){},
                     child: Text(
-                      'Add Photos',
+                      'Edit profile',
                       style: TextStyle(
                           color: Colors.white
                       ),
