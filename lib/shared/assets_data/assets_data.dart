@@ -11,4 +11,5 @@ class AssetsData{
   static const nums1 = 'assets/images/nums1.png';
   static const nums2 = 'assets/images/nums2.png';
   static const nums3 = 'assets/images/nums3.png';
+  static const background = 'assets/images/background.jpg';
 }
